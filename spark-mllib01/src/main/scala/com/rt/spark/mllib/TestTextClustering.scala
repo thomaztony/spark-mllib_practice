@@ -21,6 +21,7 @@ object TestTextClustering {
 
 		for((synonym, cosineSimilarity) <- synonyms) {
 			println(s"$synonym $cosineSimilarity")
+			println(s"$synonym $cosineSimilarity")
 		}
 
 		// Save and load model

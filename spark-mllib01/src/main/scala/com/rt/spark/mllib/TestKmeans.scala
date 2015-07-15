@@ -9,7 +9,8 @@ object TestKmeans {
 	def main(args: Array[String]) : Unit = {
 			println("Inside TestKmeans main : >> 1")
 
-			val conf = new SparkConf().setAppName("TestKmeans")
+			val conf = new SparkConf().setAppName("TestKmeans").setMaster("local[3]")
+			
 			val sc = new SparkContext(conf)
 
 			val inputData = args(0)

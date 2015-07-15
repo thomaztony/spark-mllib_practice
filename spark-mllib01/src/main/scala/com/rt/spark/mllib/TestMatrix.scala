@@ -10,7 +10,7 @@ object TestMatrix {
 		val dm: Matrix = Matrices.dense(3, 2, Array(1.0,3.0,5.0,2.0,4.0,6.0))
 		println("Printing 3x2 matrix :")
 		println (dm) 
-		
+			
 		/*val a = sc.parallelize(List(1,2,3,3,5,6,7))
 		
 		val rows: RDD[Vector] =  
